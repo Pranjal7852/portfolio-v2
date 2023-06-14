@@ -11,7 +11,7 @@ const NavbarRight = () => {
           </a>
         </li>
       </ul>
-      <div class="line-l"></div>
+      <div className="line-l"></div>
     </div>
   );
 };

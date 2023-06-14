@@ -8,12 +8,16 @@ import NavbarRight from "./components/compounds/NavbarRight/NavbarRight";
 import Intro from "./components/Section/Intro/Intro";
 import About from "./components/Section/About/About";
 import Work from "./components/Section/Work/Work";
+import Projects from "./components/Section/Projects/Projects";
+import Blog from "./components/Section/Blog/Blog";
+import Contact from "./components/Section/Contact/Contact";
+import Footer from "./components/compounds/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({ offset: 250, duration: 500 });
   }, []);
 
   return (
@@ -24,6 +28,10 @@ function App() {
       <Intro />
       <About />
       <Work />
+      <Projects />
+      <Blog />
+      <Contact />
+      <Footer />
     </>
   );
 }

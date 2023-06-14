@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaMediumM,
+  FaDiscord,
 } from "react-icons/fa";
 import "./NavbarLeft.scss";
 
@@ -14,7 +15,7 @@ const NavbarLeft = () => {
       <ul>
         <li>
           <a href="https://github.com/Pranjal7852" target="blank">
-            <FaGithub size="1.7rem" />
+            <FaGithub size="1.5rem" />
           </a>
         </li>
         <li>
@@ -22,26 +23,34 @@ const NavbarLeft = () => {
             href="https://www.linkedin.com/in/pranjal-goyal-42a7a55b/"
             target="blank"
           >
-            <FaLinkedinIn size="1.7rem" />
+            <FaLinkedinIn size="1.5rem" />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/goelpranjal/" target="blank">
-            <FaInstagram size="1.7rem" />
+            <FaInstagram size="1.5rem" />
           </a>
         </li>
         <li>
           <a href="https://twitter.com/PRANJALGOYAL6" target="blank">
-            <FaTwitter size="1.7rem" />
+            <FaTwitter size="1.5rem" />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/PRANJALGOYAL6" target="blank">
-            <FaMediumM size="1.7rem" />
+          <a href="https://medium.com/@goelpranjal" target="blank">
+            <FaMediumM size="1.5rem" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://discordapp.com/users/pranjal_goyal#3383"
+            target="blank"
+          >
+            <FaDiscord size="1.5rem" />
           </a>
         </li>
       </ul>
-      <div class="line-l"></div>
+      <div className="line-l"></div>
     </div>
   );
 };

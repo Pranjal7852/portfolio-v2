@@ -4,14 +4,15 @@ import WorkCard from "../../compounds/WorkCard/WorkCard";
 
 const Work = () => {
   return (
-    <section id="expe-p" class="expe">
-      <div class="head">
-        <span class="green-line">02.</span>
+    <section id="expe-p" className="expe">
+      <div className="head">
+        <span className="green-line">02.</span>
         <h4>Where I've Worked</h4>
-        <div class="line"></div>
+        <div className="line"></div>
       </div>
-      <div class="content">
+      <div className="content">
         <WorkCard
+          id="1"
           left={true}
           jobTitle="Freelancer"
           jobOrg="`fivrr`"

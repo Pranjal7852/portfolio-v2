@@ -18,16 +18,16 @@ const WorkCard = ({
       <h2>
         {jobTitle} @
         <span>
-          <a href={jobOrgLink ? jobOrgLink : "/"}>{jobOrg}</a>
+          <a href={jobOrgLink ? jobOrgLink : "/"}> &nbsp;{jobOrg}</a>
         </span>
       </h2>
 
-      <h4 class="green-line">
+      <h4 className="green-line">
         {startTime} - {endTime}
       </h4>
       <ul>
         {discription.map((data) => {
-          return <li>{data}</li>;
+          return <li key={data.id}>{data}</li>;
         })}
       </ul>
     </div>

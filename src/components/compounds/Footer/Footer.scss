@@ -1,0 +1,12 @@
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-size: 1rem;
+  text-align: center;
+  pointer-events: none;
+  font-family: var(--font-mono);
+}

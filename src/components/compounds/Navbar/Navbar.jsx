@@ -7,11 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <header>
-        <button
-          className="menu"
-          onClick="menu.classList.toggle('opened');menu.setAttribute('aria-expanded', menu.classList.contains('opened'))"
-          aria-label="Main Menu"
-        >
+        <button className="menu" aria-label="Main Menu">
           <svg width="60" height="40" viewBox="0 0 100 100">
             <path
               className="line line1"
@@ -38,7 +34,7 @@ const Navbar = () => {
 
           <li>
             <button className="btn">
-              <a class="" href="./pdfs/cv.pdf" download="Pranjal CV">
+              <a className="" href="./pdfs/cv.pdf" download="Pranjal CV">
                 Resume
               </a>
             </button>

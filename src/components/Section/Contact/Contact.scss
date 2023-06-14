@@ -1,0 +1,44 @@
+.hello {
+  margin: 20vh var(--padding-main) 0;
+  height: 100vh;
+  position: relative;
+}
+.hello .head {
+}
+.hello .line {
+  width: 80%;
+  left: 64%;
+}
+.msg {
+  text-align: center;
+  padding: 5vh 15vw;
+}
+.msg h2 {
+  color: var(--white);
+  word-spacing: 3px;
+  font-size: 3.2rem;
+}
+.hello form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hello .field,
+.form textarea {
+  background-color: transparent;
+  color: var(--green);
+  width: 30vw;
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  border-radius: 3px;
+  border: 1px solid var(--lightest-slate);
+  margin: 2vh 0;
+  padding: 2vh 1vw;
+}
+.form textarea {
+  background-color: transparent;
+}
+.form .btn {
+  margin: 2vh 0;
+}
