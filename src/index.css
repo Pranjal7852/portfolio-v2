@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Bandeins Strange Variable Regular";
+  src: url("./assets/fonts/BandeinsStrange.woff2") format("woff2-variations");
+  font-weight: 100 1000;
+  font-display: swap;
+}
 :root {
   --dark--background: #040404;
   --dark-orange: #f66019;
@@ -23,7 +29,7 @@
   --green-tint: rgba(100, 255, 218, 0.1);
   --pink: #f57dff;
   --blue: #57cbff;
-  --font-sans: "Inter", sans-serif;
+  --font-sans: "Bandeins Strange Variable Regular", "Inter", sans-serif;
   --font-mono: "Space Mono", monospace;
   --padding-main: 10vw;
   --fz-xxl: 5rem;
@@ -50,6 +56,12 @@ h3,
 h4 {
   line-height: 1.4;
   font-family: var(--font-sans);
+  font-variation-settings: "wght" 200, "wdth" 100;
+  transition: 500ms;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 600, "wdth" 600;
 }
 h1 {
   text-transform: capitalize;

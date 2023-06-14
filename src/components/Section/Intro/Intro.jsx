@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./Intro.scss";
 
 const Intro = () => {
@@ -7,6 +8,7 @@ const Intro = () => {
       <div className="green-line" data-aos="fade-up" data-aos-delay="300">
         <h4> Hi, my name is</h4>
       </div>
+
       <div data-aos="fade-up" data-aos-delay="800">
         <h1>pranjal goyal.</h1>
       </div>

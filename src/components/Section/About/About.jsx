@@ -41,6 +41,9 @@ const About = () => {
       <div className="tagline">
         <h4> &lt;/TechStack&gt;</h4>
       </div>
+      <div className="tagline">
+        <h4> &lt;/Certifications&gt;</h4>
+      </div>
     </section>
   );
 };

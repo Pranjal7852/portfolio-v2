@@ -7,6 +7,7 @@ const Blog = () => {
       <div className="head">
         <span className="green-line">04.</span>
         <h4>Keeping Secrets On The Internet</h4>
+        {/* <h4>My Pen and Paper</h4> */}
         <div className="line"></div>
       </div>
     </section>
