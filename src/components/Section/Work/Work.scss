@@ -1,0 +1,100 @@
+.expe {
+  margin: 15vh var(--padding-main) 1vh;
+  position: relative;
+  min-height: 100vh;
+}
+.expe .line {
+  width: 50%;
+  left: 60%;
+}
+.content {
+  padding: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.content::after {
+  content: "";
+  height: 80%;
+  width: 4px;
+  position: absolute;
+  left: 50%;
+  background-color: var(--lightest-slate);
+}
+.left {
+  align-self: flex-start;
+}
+.right {
+  align-self: flex-end;
+}
+.content .card {
+  box-shadow: -3px -3px 1px rgba(255, 255, 255, 0.274),
+    3px 3px 1px rgba(0, 0, 0, 0.24);
+}
+.card h2 {
+  font-size: var(--fz-l);
+  color: var(--light-slate);
+}
+.card h4 {
+  font-size: var(--fz-s);
+}
+
+.card {
+  width: 48%;
+  padding: 2vh 3vw;
+  margin: 3vh 0;
+  border-radius: 20px;
+  background-color: var(--dark-navy);
+  position: relative;
+}
+.card a {
+  color: var(--green);
+  text-decoration: none;
+  transition: 500ms;
+}
+.card a:hover {
+  text-decoration: underline;
+  color: var(--white);
+}
+.left::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: var(--lightest-slate);
+  border-radius: 50%;
+  top: 50%;
+  left: 104.5%;
+  transform: translate(-50%, -50%);
+}
+.right::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: var(--lightest-slate);
+  border-radius: 50%;
+  top: 50%;
+  left: -4%;
+  transform: translate(-50%, -50%);
+}
+.card ul {
+  list-style: none;
+}
+.card li {
+  list-style-type: style circle;
+  color: var(--light-slate);
+  font-family: var(--font-sans);
+}
+.card li::before {
+  content: "";
+  border-color: transparent var(--green);
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}

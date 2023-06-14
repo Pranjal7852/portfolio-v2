@@ -1,0 +1,14 @@
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 20vh var(--padding-main) 1vh;
+}
+.intro p {
+  padding-right: 30vw;
+  padding-top: 2vh;
+}
+.intro .btn {
+  width: 30%;
+  margin-top: 5vh;
+}

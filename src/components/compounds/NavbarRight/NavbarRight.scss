@@ -1,0 +1,17 @@
+.right-ul {
+  right: 4vw;
+}
+.right-ul ul {
+  transform: rotate(90deg);
+  align-items: center;
+}
+.right-ul span {
+  font-family: var(--font-mono);
+  color: var(--slate);
+  font-size: 1rem;
+}
+.right-ul a {
+  text-decoration: none;
+}
+.right-ul li:hover {
+}
