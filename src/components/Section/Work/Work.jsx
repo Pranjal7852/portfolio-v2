@@ -1,15 +1,15 @@
 import React from "react";
 import "./Work.scss";
 import WorkCard from "../../compounds/WorkCard/WorkCard";
+import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
 
 const Work = () => {
   return (
     <section id="expe-p" className="expe">
-      <div className="head">
-        <span className="green-line">02.</span>
-        <h4>Where I've Worked</h4>
-        <div className="line"></div>
-      </div>
+      <GradientHeading
+        heading="Where I've worked"
+        number="02."
+      ></GradientHeading>
       <div className="content">
         <WorkCard
           id="1"
@@ -20,7 +20,7 @@ const Work = () => {
           startTime="Nov 2020"
           endTime="Present"
           discription={[
-            "1",
+            "2",
             "Lorem ipsum dolor sit amet consectetur adipisicing elit.,odit?",
           ]}
         />

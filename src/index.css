@@ -1,8 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Bandeins Strange Variable Regular";
+  src: url("./assets/fonts/BandeinsStrange.woff2") format("woff2-variations");
+  font-weight: 100 1000;
+  font-display: swap;
+}
 :root {
-  --dark--background: #040404;
+  --dark--background: rgb(3 7 18);
   --dark-orange: #f66019;
   --light-orange: #fb9b44;
   --dark-grey: #5d5c5c;
@@ -23,7 +29,12 @@
   --green-tint: rgba(100, 255, 218, 0.1);
   --pink: #f57dff;
   --blue: #57cbff;
-  --font-sans: "Inter", sans-serif;
+
+  --purble-bottom: #7465fe;
+  --blue-medium: #8ff0ff;
+  --pink-mid: #fecfe8;
+  --pink-out: #fca3f8;
+  --font-sans: "Bandeins Strange Variable Regular", "Inter", sans-serif;
   --font-mono: "Space Mono", monospace;
   --padding-main: 10vw;
   --fz-xxl: 5rem;
@@ -39,10 +50,19 @@
 }
 
 body {
-  background-color: var(--navy);
+  background-color: var(--dark--background);
 }
 html {
   scroll-behavior: smooth;
+}
+/* animations */
+.font-animation {
+  font-variation-settings: "wght" 200, "wdth" 100;
+  font-family: var(--font-sans);
+  transition-delay: 100ms;
+}
+.font-animation:hover {
+  font-variation-settings: "wght" 200, "wdth" 600;
 }
 h1,
 h2,
@@ -50,6 +70,13 @@ h3,
 h4 {
   line-height: 1.4;
   font-family: var(--font-sans);
+  font-variation-settings: "wght" 400, "wdth" 100;
+  transition: 500ms;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 100, "wdth" 600;
+  transition-delay: 100ms;
 }
 h1 {
   text-transform: capitalize;
@@ -66,11 +93,11 @@ h4 {
   font-size: var(--fz-p);
 }
 p {
-  font-family: var(--font-sans);
+  font-family: sans-serif;
   font-size: var(--fz-p);
   color: var(--slate);
 }
-.green-line {
+.old-green-line {
   color: var(--green);
   font-family: var(--font-mono);
   font-weight: 100;
@@ -79,7 +106,7 @@ p {
 }
 .green-word {
   text-decoration: none;
-  color: var(--green);
+  color: var(--blue-medium);
 }
 
 /* scroolbar */
@@ -97,9 +124,4 @@ p {
 ::-webkit-scrollbar-track {
   background-color: var(--navy);
   border-radius: 20px;
-}
-.btn a {
-  cursor: none;
-  color: var(--green);
-  text-decoration: none;
 }

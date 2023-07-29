@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./Intro.scss";
 
 const Intro = () => {
@@ -7,8 +8,9 @@ const Intro = () => {
       <div className="green-line" data-aos="fade-up" data-aos-delay="300">
         <h4> Hi, my name is</h4>
       </div>
+
       <div data-aos="fade-up" data-aos-delay="800">
-        <h1>pranjal goyal.</h1>
+        <h1>pranjal goyal.OK</h1>
       </div>
       <div data-aos="fade-up" data-aos-delay="1100">
         <h2>Web Developer By Passion.</h2>
@@ -20,9 +22,9 @@ const Intro = () => {
           scalable backend.
         </p>
       </div>
-      <button className="btn">
+      <div className="btn inline-flex h-12 animate-background-shine items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-300 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
         <a href="#hello-p">Say Hello</a>
-      </button>
+      </div>
       <i className="fab fa-react icon"></i>
       <i className="fab fa-chrome icon"></i>
       <i className="far fa-file-code icon"></i>

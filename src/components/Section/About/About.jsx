@@ -1,14 +1,11 @@
 import React from "react";
 import "./About.scss";
+import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
 
 const About = () => {
   return (
     <section id="about-p" className="about">
-      <div className="head">
-        <span className="green-line">01.</span>
-        <h4>About Me</h4>
-        <div className="line"></div>
-      </div>
+      <GradientHeading heading="About Me" number="01." />
       <div className="contain">
         <div className="photo" data-aos="fade-left">
           {" "}
@@ -40,6 +37,9 @@ const About = () => {
 
       <div className="tagline">
         <h4> &lt;/TechStack&gt;</h4>
+      </div>
+      <div className="tagline">
+        <h4> &lt;/Certifications&gt;</h4>
       </div>
     </section>
   );

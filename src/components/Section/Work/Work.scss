@@ -3,10 +3,7 @@
   position: relative;
   min-height: 100vh;
 }
-.expe .line {
-  width: 50%;
-  left: 60%;
-}
+
 .content {
   padding: 10vh 0;
   display: flex;
@@ -48,7 +45,7 @@
   position: relative;
 }
 .card a {
-  color: var(--green);
+  color: var(--blue-medium);
   text-decoration: none;
   transition: 500ms;
 }
@@ -84,7 +81,7 @@
 .card li {
   list-style-type: style circle;
   color: var(--light-slate);
-  font-family: var(--font-sans);
+  font-family: sans-serif;
 }
 .card li::before {
   content: "";
