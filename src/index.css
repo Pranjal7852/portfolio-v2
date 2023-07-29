@@ -29,6 +29,11 @@
   --green-tint: rgba(100, 255, 218, 0.1);
   --pink: #f57dff;
   --blue: #57cbff;
+
+  --purble-bottom: #7465fe;
+  --blue-medium: #8ff0ff;
+  --pink-mid: #fecfe8;
+  --pink-out: #fca3f8;
   --font-sans: "Bandeins Strange Variable Regular", "Inter", sans-serif;
   --font-mono: "Space Mono", monospace;
   --padding-main: 10vw;
@@ -56,12 +61,13 @@ h3,
 h4 {
   line-height: 1.4;
   font-family: var(--font-sans);
-  font-variation-settings: "wght" 200, "wdth" 100;
+  font-variation-settings: "wght" 400, "wdth" 100;
   transition: 500ms;
 }
 
 h1:hover {
-  font-variation-settings: "wght" 600, "wdth" 600;
+  font-variation-settings: "wght" 100, "wdth" 600;
+  transition-delay: 100ms;
 }
 h1 {
   text-transform: capitalize;
