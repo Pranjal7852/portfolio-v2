@@ -27,7 +27,7 @@ header li,
   list-style: none;
 }
 li span {
-  color: var(--blue-medium);
+  color: var(--);
 }
 header a,
 .code li {
@@ -38,23 +38,23 @@ header a,
   opacity: 0.7;
 }
 header a:hover {
-  color: var(--dark-orange);
+  color: var(--blue-medium);
 }
 .btn {
-  text-decoration: none;
-  padding: 10px 15px;
-  background-color: transparent;
-  color: var(--blue-medium);
-  border: 2px solid var(--purble-bottom);
-  border-radius: 5px;
-  font-family: var(--font-mono);
-  font-size: var(--fz-s);
-  opacity: 0.7;
-  cursor: pointer;
-  transition: 1s;
+  // text-decoration: none;
+  // padding: 10px 15px;
+  // background-color: transparent;
+  // color: var(--blue-medium);
+  // border: 2px solid var(--purble-bottom);
+  // border-radius: 5px;
+  // font-family: var(--font-mono);
+  // font-size: var(--fz-s);
+  // opacity: 0.7;
+  // cursor: pointer;
+  // transition: 1s;
 }
 .btn:hover {
-  background-color: var(--pink-out);
+  // background-color: var(--pink-out);
 }
 .hide {
   transform: translateY(-100px);
