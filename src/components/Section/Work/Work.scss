@@ -81,7 +81,7 @@
 .card li {
   list-style-type: style circle;
   color: var(--light-slate);
-  font-family: var(--font-sans);
+  font-family: sans-serif;
 }
 .card li::before {
   content: "";

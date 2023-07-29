@@ -93,7 +93,7 @@ h4 {
   font-size: var(--fz-p);
 }
 p {
-  font-family: var(--font-sans);
+  font-family: sans-serif;
   font-size: var(--fz-p);
   color: var(--slate);
 }
