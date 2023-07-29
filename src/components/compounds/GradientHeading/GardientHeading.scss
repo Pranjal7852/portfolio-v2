@@ -1,0 +1,34 @@
+.head {
+  position: relative;
+}
+.head h4 {
+  display: inline;
+  color: var(--lightest-slate);
+  font-size: var(--fz-xl);
+  font-family: var(--font-sans);
+  word-spacing: 3px;
+  margin-left: 10px;
+  background: -webkit-linear-gradient(#7465fe, #fca3f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-variation-settings: "wght" 100, "wdth" 600;
+  overflow: hidden;
+}
+.head h4:hover {
+  font-variation-settings: "wght" 300, "wdth" 200;
+}
+.head .line {
+  height: 2px;
+  width: 100%;
+
+  background-color: var(--lightest-navy);
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.green-line {
+  color: var(--blue-medium);
+  font-family: var(--font-mono);
+  font-weight: 100;
+  word-spacing: 3px;
+  font-size: 2rem;
+}

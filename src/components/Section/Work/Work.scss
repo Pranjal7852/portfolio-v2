@@ -3,10 +3,7 @@
   position: relative;
   min-height: 100vh;
 }
-.expe .line {
-  width: 50%;
-  left: 60%;
-}
+
 .content {
   padding: 10vh 0;
   display: flex;
@@ -48,7 +45,7 @@
   position: relative;
 }
 .card a {
-  color: var(--green);
+  color: var(--blue-medium);
   text-decoration: none;
   transition: 500ms;
 }

@@ -27,7 +27,7 @@ header li,
   list-style: none;
 }
 li span {
-  color: var(--dark-orange);
+  color: var(--blue-medium);
 }
 header a,
 .code li {
@@ -44,8 +44,8 @@ header a:hover {
   text-decoration: none;
   padding: 10px 15px;
   background-color: transparent;
-  color: var(--green);
-  border: 2px solid var(--dark-orange);
+  color: var(--blue-medium);
+  border: 2px solid var(--purble-bottom);
   border-radius: 5px;
   font-family: var(--font-mono);
   font-size: var(--fz-s);
@@ -54,7 +54,7 @@ header a:hover {
   transition: 1s;
 }
 .btn:hover {
-  background-color: var(--dark-orange);
+  background-color: var(--pink-out);
 }
 .hide {
   transform: translateY(-100px);
