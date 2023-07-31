@@ -10,10 +10,10 @@ const Intro = () => {
       </div>
 
       <div data-aos="fade-up" data-aos-delay="800">
-        <h1>pranjal goyal.OK</h1>
+        <h1>pranjal goyal.</h1>
       </div>
       <div data-aos="fade-up" data-aos-delay="1100">
-        <h2>Web Developer By Passion.</h2>
+        <h2>Full Stack Web Developer By Passion.</h2>
       </div>
       <div data-aos="fade-up" data-aos-delay="1500">
         <p>

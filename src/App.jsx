@@ -18,6 +18,16 @@ function App() {
 
   useEffect(() => {
     AOS.init({ offset: 250, duration: 500 });
+    window.addEventListener(
+      "scroll",
+      () => {
+        document.body.style.setProperty(
+          "--scroll",
+          window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+        );
+      },
+      false
+    );
   }, []);
 
   return (

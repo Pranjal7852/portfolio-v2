@@ -1,11 +1,19 @@
 import React from "react";
 import "./About.scss";
 import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
+import { useState, useRef, useEffect } from "react";
+import "./../../../Hooks/ElementInViewport";
 
 const About = () => {
+  const [elementRef, isInViewport] = useIsElementInViewport();
+
   return (
-    <section id="about-p" className="about">
-      <GradientHeading heading="About Me" number="01." />
+    <section id="about-p" className="about" ref={elementRef}>
+      <GradientHeading
+        heading="About Me"
+        number="01."
+        animationClass={isInViewport}
+      />
       <div className="contain">
         <div className="photo" data-aos="fade-left">
           {" "}
