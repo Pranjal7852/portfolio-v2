@@ -1,11 +1,10 @@
 header {
-  height: 12vh;
-  width: 100%;
+  width: 80vw;
   position: fixed;
   top: 0px;
   display: flex;
   justify-content: space-between;
-  padding: 2vh 6vw;
+  padding: 2vh 0vw;
   align-items: center;
   backdrop-filter: blur(15px);
   background-color: transparent;
@@ -18,7 +17,7 @@ header img {
 }
 header ul {
   display: flex;
-  width: 50%;
+  gap: 1.5rem;
   justify-content: space-around;
   align-items: center;
 }
@@ -35,7 +34,6 @@ header a,
   color: white;
   font-family: var(--font-mono);
   transition: 1s;
-  opacity: 0.7;
 }
 header a:hover {
   color: var(--blue-medium);
@@ -72,4 +70,81 @@ header a:hover {
 }
 .menu {
   display: none;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 0vw;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    background-color: transparent;
+    z-index: 100;
+    transition: 500ms;
+  }
+  header img {
+    width: 50px;
+    opacity: 1;
+  }
+  header ul {
+    display: none;
+    gap: 0rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header li,
+  .code li {
+    list-style: none;
+  }
+  li span {
+    color: var(--);
+  }
+  header a,
+  .code li {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-mono);
+    transition: 1s;
+  }
+  header a:hover {
+    color: var(--blue-medium);
+  }
+  .logo {
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  }
+
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .btn {
+    // text-decoration: none;
+    // padding: 10px 15px;
+    // background-color: transparent;
+    // color: var(--blue-medium);
+    // border: 2px solid var(--purble-bottom);
+    // border-radius: 5px;
+    // font-family: var(--font-mono);
+    // font-size: var(--fz-s);
+    // opacity: 0.7;
+    // cursor: pointer;
+    // transition: 1s;
+  }
+  .btn:hover {
+    // background-color: var(--pink-out);
+  }
+  .hide {
+    transform: translateY(-100px);
+    transition: 1s;
+  }
+  .menu {
+    display: none;
+  }
 }

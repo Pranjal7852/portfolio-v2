@@ -1,5 +1,5 @@
 import React from "react";
-import websiteLogo from "../../../assets/images/webxsx.png";
+import websiteLogo from "/assets/images/webxsx.png";
 import "./Navbar.scss";
 import NavItem from "../../molecules/NavItem/NavItem";
 

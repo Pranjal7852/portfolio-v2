@@ -14,12 +14,6 @@ const useIsElementInViewport = () => {
     const intersectionObserver = new IntersectionObserver((entries) => {
       const [entry] = entries;
       setIsInViewport(entry.isIntersecting);
-
-      if (entry.isIntersecting) {
-        console.log("Element is in the viewport");
-      } else {
-        console.log("Element is not in the viewport");
-      }
     }, observerOptions);
 
     if (elementRef.current) {
