@@ -40,6 +40,16 @@ header a,
 header a:hover {
   color: var(--blue-medium);
 }
+.logo {
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
 .btn {
   // text-decoration: none;
   // padding: 10px 15px;

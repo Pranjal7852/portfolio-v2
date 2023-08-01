@@ -2,15 +2,18 @@ import React from "react";
 import "./Projects.scss";
 import pixo from "../../../assets/images/ss/pixo.png";
 import ProjectCard from "../../compounds/ProjectCard/ProjectCard";
+import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
+import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
 
 const Projects = () => {
+  const [elementRef, isInViewport] = useIsElementInViewport();
   return (
-    <section id="work-p" className="work">
-      <div className="head">
-        <span className="green-line">03.</span>
-        <h4>Some Things I've Built</h4>
-        <div className="line"></div>
-      </div>
+    <section id="work-p" className="work" ref={elementRef}>
+      <GradientHeading
+        heading="Some Things I've Built"
+        number="03."
+        animationClass={isInViewport}
+      />
       <div className="gallery">
         <ProjectCard
           alignmentDirection={true}

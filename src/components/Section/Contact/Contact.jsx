@@ -1,14 +1,17 @@
 import React from "react";
 import "./Contact.scss";
+import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
+import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
 
 const Contact = () => {
+  const [elementRef, isInViewport] = useIsElementInViewport();
   return (
-    <section className="hello">
-      <div className="head">
-        <span className="green-line">05.</span>
-        <h4>What's Next</h4>
-        <div className="line"></div>
-      </div>
+    <section className="hello" ref={elementRef}>
+      <GradientHeading
+        heading="What's Next"
+        number="05."
+        animationClass={isInViewport}
+      />
       <div className="form">
         <div className="msg" data-aos="fade-down">
           <h2>Get in Touch</h2>

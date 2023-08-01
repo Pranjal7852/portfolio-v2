@@ -1,14 +1,19 @@
 import React from "react";
 import "./Blog.scss";
+import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
+import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
 
 const Blog = () => {
+  const [elementRef, isInViewport] = useIsElementInViewport();
   return (
-    <section className="blog">
-      <div className="head">
-        <span className="green-line">04.</span>
-        <h4>Keeping Secrets On The Internet</h4>
-        {/* <h4>My Pen and Paper</h4> */}
-        <div className="line"></div>
+    <section className="blog" ref={elementRef}>
+      <GradientHeading
+        heading="Keeping Secrets On The Internet"
+        number="04."
+        animationClass={isInViewport}
+      />
+      <div className="construction">
+        <h3>Section Under Contruction 🏗️</h3>
       </div>
     </section>
   );
