@@ -17,7 +17,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    AOS.init({ offset: 250, duration: 500 });
+    AOS.init({ offset: 250, duration: 500, once: true });
     window.addEventListener(
       "scroll",
       () => {
