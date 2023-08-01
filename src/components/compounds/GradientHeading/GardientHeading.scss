@@ -17,13 +17,12 @@
 .expand h4 {
   font-variation-settings: "wght" 100, "wdth" 800;
   transition: 2s;
+  opacity: 0.4;
 }
 .condess h4 {
-  font-variation-settings: "wght" 100, "wdth" 200;
+  font-variation-settings: "wght" 100, "wdth" 100;
   transition: 2s;
-}
-.head h4:hover {
-  font-variation-settings: "wght" 300, "wdth" 200;
+  opacity: 1;
 }
 .head .line {
   height: 2px;

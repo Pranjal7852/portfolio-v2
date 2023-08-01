@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
-const ElementInViewport = () => {
+const useIsElementInViewport = () => {
   const elementRef = useRef(null);
+  const [isInViewport, setIsInViewport] = useState(false);
 
-  const [isInViewPort, setIsInViewport] = useState(false);
   useEffect(() => {
     const observerOptions = {
       root: null, // Use the viewport as the root element
@@ -17,9 +17,8 @@ const ElementInViewport = () => {
 
       if (entry.isIntersecting) {
         console.log("Element is in the viewport");
-        setIsInViewport(true);
       } else {
-        setIsInViewport(false);
+        console.log("Element is not in the viewport");
       }
     }, observerOptions);
 
@@ -34,7 +33,8 @@ const ElementInViewport = () => {
       }
     };
   }, [elementRef]);
+
   return [elementRef, isInViewport];
 };
 
-export default ElementInViewport;
+export default useIsElementInViewport;

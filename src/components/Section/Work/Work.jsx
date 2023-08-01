@@ -2,13 +2,16 @@ import React from "react";
 import "./Work.scss";
 import WorkCard from "../../compounds/WorkCard/WorkCard";
 import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
+import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
 
 const Work = () => {
+  const [elementRef, isInViewport] = useIsElementInViewport();
   return (
-    <section id="expe-p" className="expe">
+    <section id="expe-p" className="expe" ref={elementRef}>
       <GradientHeading
         heading="Where I've worked"
         number="02."
+        animationClass={isInViewport}
       ></GradientHeading>
       <div className="content">
         <WorkCard

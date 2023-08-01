@@ -2,8 +2,7 @@ import React from "react";
 import "./About.scss";
 import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
 import { useState, useRef, useEffect } from "react";
-import "./../../../Hooks/ElementInViewport";
-
+import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
 const About = () => {
   const [elementRef, isInViewport] = useIsElementInViewport();
 

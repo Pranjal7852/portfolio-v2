@@ -1,9 +1,20 @@
 .blog {
   margin: 3vh var(--padding-main);
-  min-height: 100vh;
+  // min-height: 70vh;
   position: relative;
 }
 .blog .line {
   width: 40%;
   left: 65%;
+}
+.construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.construction h3 {
+  color: grey;
+  font-size: var(--fz-l);
+  font-family: sans-serif;
 }
