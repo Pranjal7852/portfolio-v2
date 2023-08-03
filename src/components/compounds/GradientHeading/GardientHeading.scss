@@ -4,7 +4,7 @@
 .head h4 {
   display: inline;
   color: var(--lightest-slate);
-  font-size: var(--fz-xl);
+  font-size: 4.5rem;
   font-family: var(--font-sans);
   word-spacing: 3px;
   margin-left: 10px;
@@ -12,7 +12,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-variation-settings: "wght" 100, "wdth" 600;
-  overflow: hidden;
 }
 .expand h4 {
   font-variation-settings: "wght" 100, "wdth" 800;
@@ -38,4 +37,46 @@
   font-weight: 100;
   word-spacing: 3px;
   font-size: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .head {
+    position: relative;
+  }
+  .head h4 {
+    display: inline;
+    color: var(--lightest-slate);
+    font-size: 2.5rem;
+    font-family: var(--font-sans);
+    word-spacing: 3px;
+    margin-left: 10px;
+    background: -webkit-linear-gradient(#8ff0ff, #fca3f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-variation-settings: "wght" 100, "wdth" 600;
+  }
+  .expand h4 {
+    font-variation-settings: "wght" 100, "wdth" 800;
+    transition: 2s;
+    opacity: 0.7;
+  }
+  .condess h4 {
+    font-variation-settings: "wght" 100, "wdth" 100;
+    transition: 2s;
+    opacity: 1;
+  }
+  .head .line {
+    height: 2px;
+    width: 100%;
+
+    background-color: var(--lightest-navy);
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .green-line {
+    color: var(--blue-medium);
+    font-family: var(--font-mono);
+    font-weight: 100;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+  }
 }

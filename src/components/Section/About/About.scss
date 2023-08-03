@@ -14,7 +14,7 @@
 .photo {
   width: 250px;
   height: 350px;
-  background-color: #8ff0ff30;
+  background-color: #8ff0ff32;
   background-blend-mode: luminosity;
   background-image: url(./assets/images/pranjal_goyal_display_image.jpg);
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 }
 .photo:hover {
   background-color: #64ffdb00;
-  transition: 1s;
+  transition: 5s;
 }
 .photo::after {
   content: "";
@@ -37,7 +37,7 @@
   position: absolute;
   border-radius: 5px;
   transform: translate(30px, 30px);
-  z-index: -1;
+  z-index: 1;
 }
 .contain .red {
   width: 60%;
@@ -61,7 +61,8 @@
 }
 th {
   color: white;
-  font-size: var(--fz-s);
+  font-size: 1.5rem;
+  border: 2px solid red;
 }
 td {
   border: 1px solid var(--light-grey);
@@ -75,4 +76,97 @@ td {
   margin: 2rem auto;
   justify-content: space-evenly;
   gap: 1rem;
+}
+.tab-mobile {
+  display: none;
+}
+table {
+  width: 100% !important;
+  table-layout: fixed;
+  word-break: break-word;
+}
+@media screen and (max-width: 480px) {
+  .about {
+    position: relative;
+  }
+
+  .about .width {
+    width: 80%;
+  }
+  .contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 5vh 0;
+  }
+  .photo {
+    width: 250px;
+    height: 350px;
+    background-color: #8ff0ff32;
+    background-blend-mode: luminosity;
+    background-image: url(./assets/images/pranjal_goyal_display_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: -2px -2px 1px rgba(255, 255, 255, 0.24),
+      2px 2px 1px rgba(0, 0, 0, 0.205);
+    transition: 1s;
+  }
+  .photo:hover {
+    background-color: #64ffdb00;
+    transition: 5s;
+  }
+  .photo::after {
+    content: "";
+    width: 200px;
+    height: 300px;
+    border: 2px solid var(--blue-medium);
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(30px, 30px);
+    z-index: 1;
+  }
+  .contain .red {
+    width: 100%;
+    white-space: pre-wrap;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .tagline {
+    width: 100%;
+    text-align: left;
+    margin: 3vh 0;
+    color: var(--light-slate);
+    font-size: var(--fz-l);
+    pointer-events: none;
+    cursor: none;
+    opacity: 0.7;
+  }
+  .tech {
+    font-size: var(--fz-s);
+  }
+
+  th {
+    color: white;
+    font-size: var(--fz-s);
+  }
+  td {
+    border: 1px solid var(--light-grey);
+    padding: 0.5rem;
+
+    color: var(--white-theme);
+  }
+  .tab-desktop {
+    display: none;
+  }
+  .tab-mobile {
+    display: inherit;
+  }
+  .cell-mobile {
+    display: none;
+  }
 }

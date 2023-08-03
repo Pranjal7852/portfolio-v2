@@ -14,9 +14,7 @@ const About = () => {
         animationClass={isInViewport}
       />
       <div className="contain">
-        <div className="photo" data-aos="fade-left">
-          {" "}
-        </div>
+        <div className="photo" data-aos="fade-left"></div>
 
         <div className="red" data-aos="zoom-out">
           <p>
@@ -44,9 +42,9 @@ const About = () => {
 
       <div className=" tech tagline">
         <h4> &lt;/TechStack&gt;</h4>
-        <div className="table-container">
+        <div className="table-container tab-desktop">
           <div>
-            <table class="min-w-full text-left text-sm font-light">
+            <table class="text-left text-l font-light">
               <tbody>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
@@ -71,7 +69,10 @@ const About = () => {
                   <td class="whitespace-nowrap px-6 py-4" colSpan={4}></td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" rowSpan={2}>
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    rowSpan={2}
+                  >
                     Frameworks
                   </td>
                   <td class="whitespace-nowrap px-6 py-4">SQL</td>
@@ -112,7 +113,10 @@ const About = () => {
                   <td class="whitespace-nowrap px-6 py-4" colSpan={4}></td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" rowSpan={2}>
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    rowSpan={2}
+                  >
                     Tools
                   </td>
                   <td class="whitespace-nowrap px-6 py-4">ReactJS</td>
@@ -128,6 +132,106 @@ const About = () => {
             </table>
           </div>
         </div>
+        <div className="table-container tab-mobile">
+          <div>
+            <table class="text-center text-l font-light">
+              <tbody>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Languages
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Python</td>
+                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">
+                    Javascript(ES5/ES6)
+                  </td>
+                  <td class="whitespace-nowrap px-6 py-4">Typescript</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">HTML/CSS</td>
+                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4" colSpan={2}></td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Frameworks
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>{" "}
+          <div>
+            <table class="text-center text-l font-light">
+              <tbody>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Technologies
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Python</td>
+                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">
+                    Javascript(ES5/ES6)
+                  </td>
+                  <td class="whitespace-nowrap px-6 py-4">Typescript</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">HTML/CSS</td>
+                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4" colSpan={2}></td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Tools
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
       <div className="certificate tagline">
         <h4> &lt;/Certifications&gt;</h4>
@@ -135,29 +239,31 @@ const About = () => {
           <table class="min-w-full text-left text-sm font-light">
             <tbody>
               <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap px-6 py-4">Domain</td>
+                <td class="whitespace-nowrap px-6 py-4 cell-mobile">Domain</td>
                 <td class="whitespace-nowrap px-6 py-4 font-medium">Name</td>
-                <td class="whitespace-nowrap px-6 py-4">Provider</td>
+                <td class="whitespace-nowrap px-6 py-4 cell-mobile">
+                  Provider
+                </td>
                 <td class="whitespace-nowrap px-6 py-4">Link</td>
               </tr>
               <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap px-6 py-4">Python</td>
+                <td class="whitespace-nowrap px-6 py-4 cell-mobile">Python</td>
                 <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                <td class="whitespace-nowrap px-6 py-4 cell-mobile">&nbsp;</td>
                 <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
               </tr>
 
               <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap px-6 py-4" rowSpan={2}>
+                <td class="whitespace-nowrap px-6 py-4 cell-mobile" rowSpan={2}>
                   Frameworks
                 </td>
                 <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                <td class="whitespace-nowrap px-6 py-4 cell-mobile">SQL</td>
                 <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
               </tr>
               <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                 <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                <td class="whitespace-nowrap px-6 py-4 cell-mobile">SQL</td>
                 <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
               </tr>
             </tbody>
