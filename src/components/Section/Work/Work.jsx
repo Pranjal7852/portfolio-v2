@@ -9,7 +9,7 @@ const Work = () => {
   return (
     <section id="expe-p" className="expe" ref={elementRef}>
       <GradientHeading
-        heading="Where I've worked"
+        heading="Where I've Worked"
         number="02."
         animationClass={isInViewport}
       ></GradientHeading>

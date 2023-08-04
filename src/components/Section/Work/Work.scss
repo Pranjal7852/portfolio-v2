@@ -94,3 +94,104 @@
   top: 0.9em;
   position: relative;
 }
+
+@media screen and (max-width: 480px) {
+  .expe {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .content {
+    padding: 1vh 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .content::after {
+    content: "";
+    height: 80%;
+    width: 4px;
+    position: absolute;
+    left: 50%;
+    background-color: var(--lightest-slate);
+    display: none;
+  }
+  .left {
+    align-self: center;
+  }
+  .right {
+    align-self: center;
+  }
+  .content .card {
+    box-shadow: -3px -3px 1px rgba(255, 255, 255, 0.274),
+      3px 3px 1px rgba(0, 0, 0, 0.24);
+  }
+  .card h2 {
+    font-size: var(--fz-l);
+    color: var(--light-slate);
+  }
+  .card h4 {
+    font-size: var(--fz-s);
+  }
+
+  .card {
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background-color: var(--dark-navy);
+    position: relative;
+  }
+  .card a {
+    color: var(--blue-medium);
+    text-decoration: none;
+    transition: 500ms;
+  }
+  .card a:hover {
+    text-decoration: underline;
+    color: var(--white);
+  }
+  .left::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--lightest-slate);
+    border-radius: 50%;
+    top: 50%;
+    left: 104.5%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .right::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--lightest-slate);
+    border-radius: 50%;
+    top: 50%;
+    left: -4%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .card ul {
+    list-style: none;
+  }
+  .card li {
+    list-style-type: style circle;
+    color: var(--light-slate);
+    font-family: sans-serif;
+  }
+  .card li::before {
+    content: "";
+    border-color: transparent var(--green);
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+}
