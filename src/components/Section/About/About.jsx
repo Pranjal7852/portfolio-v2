@@ -18,24 +18,39 @@ const About = () => {
 
         <div className="red" data-aos="zoom-out">
           <p>
-            I'm an undergraduate in B-Tech Electronics and Communication
-            Engineering from <span className="green-word">NIT, Hamirpur</span>{" "}
-            with current grade point of 9.51. Currently I'm working on{" "}
-            <span className="green-word">MERN</span> stack but also want to
-            explore my potential in Machine Learning and Artificial
-            Intelligence.
+            I am Pranjal Goyal, currently a final year undergraduate student
+            pursuing Electronics and Communication Engineering at the{" "}
+            <span className="green-word">
+              National Institute of Technology, Hamirpur
+            </span>
+            , India. Originally from New Delhi, I possess a keen interest in
+            exploring new technology and tackling real-world challenges. I
+            specialize in full stack web development using MERN stack.
+            Additionally, I participate in hackathons regularly and have
+            achieved a few victories. Currently, I am looking for new roles
+            based on my skill set As a full stack developer with over a year of
+            hands-on experience. One notable project includes creating websites
+            for technical and cultural festivals using cutting-edge frameworks
+            like React JS and Three JS. I also possess experience with APIs,
+            having worked with event data and images, and have developed an
+            Admin Panel using ExpressJs and MongoDb Atlas.
+            <span className="green-word">NIT, Hamirpur</span> with current grade
           </p>
 
           <p>
-            {" "}
-            I am also an Executive member of Team{" "}
-            <span className="green-word">Pixonoids</span>, which is the leading
-            Club for Web Development in our College.
+            I have developed a strong foundation in various programming
+            languages, including JavaScript (ES6), TypeScript, HTML, CSS, and
+            NODEJS. My expertise extends to an array of web technologies, such
+            as React JS, Redux, Node JS, CLI NPM, Material UI, Next JS, MongoDB,
+            and PostgreSQL. Proficient with essential tools like GIT, Command
+            Line, LaTeX, Docker, AWS, Netlify, REST API, and GraphQL, I am
+            well-equipped to tackle complex development challenges.
           </p>
 
           <p>
-            I am open to different ideas, and by mixing my skills into them, I
-            am looking forward to making my mark in the industry as a developer.
+            Throughout my career, I have successfully designed and deployed
+            diverse web applications encompassing both front-end and back-end
+            development.
           </p>
         </div>
       </div>

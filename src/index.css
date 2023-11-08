@@ -89,9 +89,6 @@ h1 {
   animation-name: wiggle;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
-  background: -webkit-linear-gradient(#8ff0ff, #fca3f8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 @keyframes wiggle {
   0% {
@@ -157,9 +154,6 @@ p {
     animation-name: wiggle;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
-    background: -webkit-linear-gradient(#8ff0ff, #fca3f8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   h2 {

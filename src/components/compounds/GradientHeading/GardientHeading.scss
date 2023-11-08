@@ -8,9 +8,6 @@
   font-family: var(--font-sans);
   word-spacing: 3px;
   margin-left: 10px;
-  background: -webkit-linear-gradient(#8ff0ff, #fca3f8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-variation-settings: "wght" 100, "wdth" 600;
 }
 .expand h4 {
@@ -49,9 +46,7 @@
     font-family: var(--font-sans);
     word-spacing: 3px;
     margin-left: 10px;
-    background: -webkit-linear-gradient(#8ff0ff, #fca3f8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
     font-variation-settings: "wght" 100, "wdth" 600;
   }
   .expand h4 {
