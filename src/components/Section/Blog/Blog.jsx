@@ -13,7 +13,7 @@ const Blog = () => {
         animationClass={isInViewport}
       />
       <div className="construction">
-        <h3>Section Under Contruction 🏗️</h3>
+        <h3>Section Under Construction 🏗️</h3>
       </div>
     </section>
   );

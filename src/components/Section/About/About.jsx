@@ -3,6 +3,7 @@ import "./About.scss";
 import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
 import { useState, useRef, useEffect } from "react";
 import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
+import { IoLogoJavascript } from "react-icons/io5";
 const About = () => {
   const [elementRef, isInViewport] = useIsElementInViewport();
 
@@ -14,39 +15,46 @@ const About = () => {
         animationClass={isInViewport}
       />
       <div className="contain">
-        <div className="photo" data-aos="fade-left">
-          {" "}
-        </div>
+        <div className="photo" data-aos="fade-left"></div>
 
         <div className="red" data-aos="zoom-out">
           <p>
-            I'm an undergraduate in B-Tech Electronics and Communication
-            Engineering from <span className="green-word">NIT, Hamirpur</span>{" "}
-            with current grade point of 9.51. Currently I'm working on{" "}
-            <span className="green-word">MERN</span> stack but also want to
-            explore my potential in Machine Learning and Artificial
-            Intelligence.
+            I am Pranjal Goyal, currently a final year undergraduate student
+            pursuing Electronics and Communication Engineering at the{" "}
+            <span className="green-word">
+              National Institute of Technology, Hamirpur
+            </span>
+            , India. Originally from New Delhi, I possess a keen interest in
+            exploring new technology and tackling real-world challenges. I
+            specialize in full stack web development using{" "}
+            <span className="green-word">MERN</span> stack.
           </p>
-
+          <br></br>
           <p>
-            {" "}
-            I am also an Executive member of Team{" "}
-            <span className="green-word">Pixonoids</span>, which is the leading
-            Club for Web Development in our College.
+            I have developed a strong foundation in various programming
+            languages, including JavaScript (ES6), TypeScript, HTML, CSS, and
+            Node.Js My expertise extends to an array of web technologies, such
+            as React JS, Redux, Node JS, CLI NPM, Material UI, Next JS, MongoDB,
+            and PostgreSQL.
           </p>
-
+          <br></br>
           <p>
-            I am open to different ideas, and by mixing my skills into them, I
-            am looking forward to making my mark in the industry as a developer.
+            Currently, I am looking for new roles based on my skill set as a
+            full stack developer with over a year of hands-on experience. I also
+            possess experience with APIs, having worked with event data and
+            images, and have developed an Admin Panel using ExpressJs and
+            MongoDb Atlas.Throughout my career, I have successfully designed and
+            deployed diverse web applications encompassing both front-end and
+            back-end development.
           </p>
         </div>
       </div>
 
       <div className=" tech tagline">
         <h4> &lt;/TechStack&gt;</h4>
-        <div className="table-container">
+        <div className="table-container tab-desktop">
           <div>
-            <table class="min-w-full text-left text-sm font-light">
+            <table class="text-left text-l font-light">
               <tbody>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
@@ -59,28 +67,31 @@ const About = () => {
                     Javascript(ES5/ES6)
                   </td>
                   <td class="whitespace-nowrap px-6 py-4">Typescript</td>
-                  <td class="whitespace-nowrap px-6 py-4">HTML/CSS</td>
+                  <td class="whitespace-nowrap px-6 py-4">HTML</td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td class="whitespace-nowrap px-6 py-4">Python</td>
                   <td class="whitespace-nowrap px-6 py-4">SQL</td>
 
-                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                  <td class="whitespace-nowrap px-6 py-4">CSS</td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td class="whitespace-nowrap px-6 py-4" colSpan={4}></td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" rowSpan={2}>
-                    Frameworks
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    rowSpan={2}
+                  >
+                    Frameworks/Libraries
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                  <td class="whitespace-nowrap px-6 py-4">React.JS</td>
+                  <td class="whitespace-nowrap px-6 py-4">Redux</td>
+                  <td class="whitespace-nowrap px-6 py-4">Next.JS</td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                  <td class="whitespace-nowrap px-6 py-4">Prisma ORM</td>
+                  <td class="whitespace-nowrap px-6 py-4">Nest.JS</td>
                   <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
                 </tr>
               </tbody>
@@ -96,72 +107,141 @@ const About = () => {
                   >
                     Technologies
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">
-                    Javascript(ES5/ES6)
-                  </td>
-                  <td class="whitespace-nowrap px-6 py-4">Typescript</td>
-                  <td class="whitespace-nowrap px-6 py-4">HTML/CSS</td>
+                  <td class="whitespace-nowrap px-6 py-4">Node.JS</td>
+                  <td class="whitespace-nowrap px-6 py-4">Express.JS</td>
+                  <td class="whitespace-nowrap px-6 py-4">MongoDB</td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Python</td>
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
-
-                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                  <td class="whitespace-nowrap px-6 py-4">PostgreSQL</td>
+                  <td class="whitespace-nowrap px-6 py-4">Web Sockets</td>
+                  <td class="whitespace-nowrap px-6 py-4">Nginx</td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td class="whitespace-nowrap px-6 py-4" colSpan={4}></td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" rowSpan={2}>
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    rowSpan={2}
+                  >
                     Tools
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">ReactJS</td>
-                  <td class="whitespace-nowrap px-6 py-4">NextJs</td>
-                  <td class="whitespace-nowrap px-6 py-4">Flask</td>
+                  <td class="whitespace-nowrap px-6 py-4">AWS</td>
+                  <td class="whitespace-nowrap px-6 py-4">Docker</td>
+                  <td class="whitespace-nowrap px-6 py-4">Git/Github</td>
                 </tr>
                 <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Flask</td>
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                  <td class="whitespace-nowrap px-6 py-4">Azure</td>
+                  <td class="whitespace-nowrap px-6 py-4">Postman</td>
+                  <td class="whitespace-nowrap px-6 py-4">Vite</td>
+                  <td class="whitespace-nowrap px-6 py-4">Firebase</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-      </div>
-      <div className="certificate tagline">
-        <h4> &lt;/Certifications&gt;</h4>
-        <div className="table-container">
-          <table class="min-w-full text-left text-sm font-light">
-            <tbody>
-              <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap px-6 py-4">Domain</td>
-                <td class="whitespace-nowrap px-6 py-4 font-medium">Name</td>
-                <td class="whitespace-nowrap px-6 py-4">Provider</td>
-                <td class="whitespace-nowrap px-6 py-4">Link</td>
-              </tr>
-              <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap px-6 py-4">Python</td>
-                <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
-                <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
-              </tr>
+        <div className="table-container tab-mobile">
+          <div>
+            <table class="text-center text-l font-light">
+              <tbody>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Languages
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">
+                    Javascript(ES5/ES6)
+                  </td>
+                  <td class="whitespace-nowrap px-6 py-4">Typescript</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Python</td>
+                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                </tr>
 
-              <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap px-6 py-4" rowSpan={2}>
-                  Frameworks
-                </td>
-                <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
-              </tr>
-              <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">SQL</td>
-                <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
-              </tr>
-            </tbody>
-          </table>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">HTML</td>
+                  <td class="whitespace-nowrap px-6 py-4">CSS</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4" colSpan={2}></td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Frameworks/Libraries
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">React.JS</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">Redux</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Next.JS</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">Nest.JS</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>{" "}
+          <div>
+            <table class="text-center text-l font-light">
+              <tbody>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Technologies
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Node.JS</td>
+                  <td class="whitespace-nowrap px-6 py-4">Express.JS</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">PostgreSQL</td>
+                  <td class="whitespace-nowrap px-6 py-4">MongoDB</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Nginx</td>
+                  <td class="whitespace-nowrap px-6 py-4">Web Sockets</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4" colSpan={2}></td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td
+                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    colSpan={2}
+                  >
+                    Tools
+                  </td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">AWS</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">Docker</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Git/Github</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">Postman</td>
+                </tr>
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td class="whitespace-nowrap px-6 py-4">Vite</td>
+
+                  <td class="whitespace-nowrap px-6 py-4">Firebase</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>

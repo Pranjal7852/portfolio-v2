@@ -1,5 +1,4 @@
 .work {
-  margin: 3vh var(--padding-main);
   min-height: 100vh;
   position: relative;
 }
@@ -114,4 +113,6 @@
   text-align: center;
   width: 70%;
   margin: auto;
+}
+@media screen and (max-width: 480px) {
 }

@@ -1,14 +1,32 @@
 .intro {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 20vh var(--padding-main) 1vh;
+  padding: 20vh 0 0;
+  height: 100vh;
 }
 .intro p {
-  padding-right: 30vw;
   padding-top: 2vh;
 }
 .intro .btn {
   width: 30%;
   margin-top: 5vh;
+}
+@media screen and (max-width: 480px) {
+  .intro h1 {
+    font-size: 3.5rem;
+    white-space: nowrap;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 0 0;
+    height: 100vh;
+  }
+  .intro p {
+    padding-top: 2vh;
+  }
+  .intro .btn {
+    width: 100%;
+    margin-top: 5vh;
+  }
 }

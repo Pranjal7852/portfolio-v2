@@ -40,7 +40,7 @@
   --fz-xxl: 5rem;
   --fz-xl: 4.5rem;
   --fz-l: 2rem;
-  --fz-p: 1.3rem;
+  --fz-p: 1.2rem;
   --fz-s: 1rem;
 }
 * {
@@ -51,6 +51,8 @@
 
 body {
   background-color: var(--dark--background);
+  position: relative;
+  padding: 0 var(--padding-main);
 }
 html {
   scroll-behavior: smooth;
@@ -81,15 +83,12 @@ h4 {
 
 h1 {
   text-transform: capitalize;
-  font-size: var(--fz-xxl);
+  font-size: 4.5rem;
   color: var(--lightest-slate);
   word-spacing: -2px;
   animation-name: wiggle;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
-  background: -webkit-linear-gradient(#8ff0ff, #fca3f8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 @keyframes wiggle {
   0% {
@@ -101,7 +100,7 @@ h1 {
 }
 h2 {
   text-transform: capitalize;
-  font-size: var(--fz-xl);
+  font-size: 4.5rem;
   color: var(--slate);
 }
 h4 {
@@ -139,4 +138,46 @@ p {
 ::-webkit-scrollbar-track {
   background-color: var(--navy);
   border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: var(--dark--background);
+
+    padding: 10vh 5vw;
+  }
+  .h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: var(--lightest-slate);
+    word-spacing: -2px;
+    animation-name: wiggle;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+  }
+
+  h2 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    color: var(--slate);
+  }
+  h4 {
+    font-size: var(--fz-p);
+  }
+  p {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: var(--slate);
+  }
+  .old-green-line {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-weight: 100;
+    word-spacing: 3px;
+    font-size: 2rem;
+  }
+  .green-word {
+    text-decoration: none;
+    color: var(--blue-medium);
+  }
 }

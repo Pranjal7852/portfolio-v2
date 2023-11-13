@@ -38,3 +38,8 @@
   top: 100%;
   position: absolute;
 }
+@media screen and (max-width: 480px) {
+  .header-l {
+    display: none;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.scss";
-import pixo from "../../../assets/images/ss/pixo.png";
+import pixo from "/assets/images/ss/pixo.png";
 import ProjectCard from "../../compounds/ProjectCard/ProjectCard";
 import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
 import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
