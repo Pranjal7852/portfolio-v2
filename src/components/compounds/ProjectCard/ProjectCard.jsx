@@ -50,7 +50,7 @@ const ProjectCard = ({
               </a>
             </li>
             <li>
-              <a href={projectDiscription} target="blank">
+              <a href={projectDeployedLink} target="blank">
                 <FaExternalLinkAlt />
               </a>
             </li>

@@ -33,7 +33,6 @@ const Intro = () => {
         </a>
       </div>
 
-      <i className="fab fa-react icon"></i>
       <i className="fab fa-chrome icon"></i>
       <i className="far fa-file-code icon"></i>
       <i className="fab fa-css3 icon"></i>

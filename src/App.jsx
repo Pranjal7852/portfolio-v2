@@ -39,7 +39,7 @@ function App() {
       <About />
       <Work />
       <Projects />
-      <Blog />
+      {/* <Blog /> */}
       <Contact />
       <Footer />
     </>
