@@ -54,86 +54,86 @@ const About = () => {
         <h4> &lt;/TechStack&gt;</h4>
         <div className="table-container tab-desktop">
           <div>
-            <table class="text-left text-l font-light">
+            <table className="text-left text-l font-light">
               <tbody>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     rowSpan={2}
                   >
                     Languages
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">
+                  <td className="whitespace-nowrap px-6 py-4">
                     Javascript(ES5/ES6)
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">Typescript</td>
-                  <td class="whitespace-nowrap px-6 py-4">HTML</td>
+                  <td className="whitespace-nowrap px-6 py-4">Typescript</td>
+                  <td className="whitespace-nowrap px-6 py-4">HTML</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Python</td>
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Python</td>
+                  <td className="whitespace-nowrap px-6 py-4">SQL</td>
 
-                  <td class="whitespace-nowrap px-6 py-4">CSS</td>
+                  <td className="whitespace-nowrap px-6 py-4">CSS</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" colSpan={4}></td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4" colSpan={4}></td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     rowSpan={2}
                   >
                     Frameworks/Libraries
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">React.JS</td>
-                  <td class="whitespace-nowrap px-6 py-4">Redux</td>
-                  <td class="whitespace-nowrap px-6 py-4">Next.JS</td>
+                  <td className="whitespace-nowrap px-6 py-4">React.JS</td>
+                  <td className="whitespace-nowrap px-6 py-4">Redux</td>
+                  <td className="whitespace-nowrap px-6 py-4">Next.JS</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Prisma ORM</td>
-                  <td class="whitespace-nowrap px-6 py-4">Nest.JS</td>
-                  <td class="whitespace-nowrap px-6 py-4">&nbsp;</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Prisma ORM</td>
+                  <td className="whitespace-nowrap px-6 py-4">Nest.JS</td>
+                  <td className="whitespace-nowrap px-6 py-4">&nbsp;</td>
                 </tr>
               </tbody>
             </table>
           </div>{" "}
           <div>
-            <table class="min-w-full text-left text-sm font-light">
+            <table className="min-w-full text-left text-sm font-light">
               <tbody>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     rowSpan={2}
                   >
                     Technologies
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">Node.JS</td>
-                  <td class="whitespace-nowrap px-6 py-4">Express.JS</td>
-                  <td class="whitespace-nowrap px-6 py-4">MongoDB</td>
+                  <td className="whitespace-nowrap px-6 py-4">Node.JS</td>
+                  <td className="whitespace-nowrap px-6 py-4">Express.JS</td>
+                  <td className="whitespace-nowrap px-6 py-4">MongoDB</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">PostgreSQL</td>
-                  <td class="whitespace-nowrap px-6 py-4">Web Sockets</td>
-                  <td class="whitespace-nowrap px-6 py-4">Nginx</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">PostgreSQL</td>
+                  <td className="whitespace-nowrap px-6 py-4">Web Sockets</td>
+                  <td className="whitespace-nowrap px-6 py-4">Nginx</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" colSpan={4}></td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4" colSpan={4}></td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     rowSpan={2}
                   >
                     Tools
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">AWS</td>
-                  <td class="whitespace-nowrap px-6 py-4">Docker</td>
-                  <td class="whitespace-nowrap px-6 py-4">Git/Github</td>
+                  <td className="whitespace-nowrap px-6 py-4">AWS</td>
+                  <td className="whitespace-nowrap px-6 py-4">Docker</td>
+                  <td className="whitespace-nowrap px-6 py-4">Git/Github</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Postman</td>
-                  <td class="whitespace-nowrap px-6 py-4">Vite</td>
-                  <td class="whitespace-nowrap px-6 py-4">Firebase</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Postman</td>
+                  <td className="whitespace-nowrap px-6 py-4">Vite</td>
+                  <td className="whitespace-nowrap px-6 py-4">Firebase</td>
                 </tr>
               </tbody>
             </table>
@@ -141,103 +141,103 @@ const About = () => {
         </div>
         <div className="table-container tab-mobile">
           <div>
-            <table class="text-center text-l font-light">
+            <table className="text-center text-l font-light">
               <tbody>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     colSpan={2}
                   >
                     Languages
                   </td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">
                     Javascript(ES5/ES6)
                   </td>
-                  <td class="whitespace-nowrap px-6 py-4">Typescript</td>
+                  <td className="whitespace-nowrap px-6 py-4">Typescript</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Python</td>
-                  <td class="whitespace-nowrap px-6 py-4">SQL</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Python</td>
+                  <td className="whitespace-nowrap px-6 py-4">SQL</td>
                 </tr>
 
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">HTML</td>
-                  <td class="whitespace-nowrap px-6 py-4">CSS</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">HTML</td>
+                  <td className="whitespace-nowrap px-6 py-4">CSS</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" colSpan={2}></td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4" colSpan={2}></td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     colSpan={2}
                   >
                     Frameworks/Libraries
                   </td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">React.JS</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">React.JS</td>
 
-                  <td class="whitespace-nowrap px-6 py-4">Redux</td>
+                  <td className="whitespace-nowrap px-6 py-4">Redux</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Next.JS</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Next.JS</td>
 
-                  <td class="whitespace-nowrap px-6 py-4">Nest.JS</td>
+                  <td className="whitespace-nowrap px-6 py-4">Nest.JS</td>
                 </tr>
               </tbody>
             </table>
           </div>{" "}
           <div>
-            <table class="text-center text-l font-light">
+            <table className="text-center text-l font-light">
               <tbody>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     colSpan={2}
                   >
                     Technologies
                   </td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Node.JS</td>
-                  <td class="whitespace-nowrap px-6 py-4">Express.JS</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Node.JS</td>
+                  <td className="whitespace-nowrap px-6 py-4">Express.JS</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">PostgreSQL</td>
-                  <td class="whitespace-nowrap px-6 py-4">MongoDB</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">PostgreSQL</td>
+                  <td className="whitespace-nowrap px-6 py-4">MongoDB</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Nginx</td>
-                  <td class="whitespace-nowrap px-6 py-4">Web Sockets</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Nginx</td>
+                  <td className="whitespace-nowrap px-6 py-4">Web Sockets</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4" colSpan={2}></td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4" colSpan={2}></td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
-                    class="whitespace-nowrap px-6 py-4 font-medium"
+                    className="whitespace-nowrap px-6 py-4 font-medium"
                     colSpan={2}
                   >
                     Tools
                   </td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">AWS</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">AWS</td>
 
-                  <td class="whitespace-nowrap px-6 py-4">Docker</td>
+                  <td className="whitespace-nowrap px-6 py-4">Docker</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Git/Github</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Git/Github</td>
 
-                  <td class="whitespace-nowrap px-6 py-4">Postman</td>
+                  <td className="whitespace-nowrap px-6 py-4">Postman</td>
                 </tr>
-                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                  <td class="whitespace-nowrap px-6 py-4">Vite</td>
+                <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                  <td className="whitespace-nowrap px-6 py-4">Vite</td>
 
-                  <td class="whitespace-nowrap px-6 py-4">Firebase</td>
+                  <td className="whitespace-nowrap px-6 py-4">Firebase</td>
                 </tr>
               </tbody>
             </table>

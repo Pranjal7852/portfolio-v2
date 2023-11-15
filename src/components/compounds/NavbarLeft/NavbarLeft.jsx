@@ -27,7 +27,7 @@ const NavbarLeft = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/goelpranjal/" target="blank">
+          <a href="https://www.instagram.com/goyalpranjal_/" target="blank">
             <FaInstagram size="1.5rem" />
           </a>
         </li>
@@ -37,7 +37,7 @@ const NavbarLeft = () => {
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@goelpranjal" target="blank">
+          <a href="https://medium.com/@goyalpranjal" target="blank">
             <FaMediumM size="1.5rem" />
           </a>
         </li>
