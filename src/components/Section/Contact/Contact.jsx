@@ -5,10 +5,10 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
 import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const [elementRef, isInViewport] = useIsElementInViewport();
-
   const formik = useFormik({
     initialValues: {
       from_name: "",
@@ -23,7 +23,6 @@ const Contact = () => {
       message: Yup.string().required("Required"),
     }),
     onSubmit: (values, { resetForm }) => {
-      console.log("Form submitted with values:", values);
       emailjs
         .send(
           import.meta.env.VITE_EMAIL_JS_SERVICE_ID,
@@ -33,12 +32,10 @@ const Contact = () => {
         )
         .then(
           (response) => {
-            console.log("Email sent successfully:", response);
-            // Additional logic after successful email submission
+            toast.success("Email sent successfully 🚀 !");
           },
           (error) => {
-            console.error("Email failed to send:", error);
-            // Handle email send failure
+            toast.error("Email failed to send 😔. Please try again later.");
           }
         )
         .finally(() => {
@@ -116,6 +113,22 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Toaster
+        toastOptions={{
+          success: {
+            style: {
+              background: "#0a192f",
+              color: "white",
+            },
+          },
+          error: {
+            style: {
+              background: "#0a192f",
+              color: "white",
+            },
+          },
+        }}
+      />
     </section>
   );
 };
