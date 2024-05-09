@@ -11,7 +11,7 @@
 }
 .content::after {
   content: "";
-  height: 80%;
+  height: calc(100% - 24vh);
   width: 4px;
   position: absolute;
   left: 50%;

@@ -1,10 +1,10 @@
-footer {
-  height: 10vh;
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 4vh;
 }
-footer p {
+.footer p {
   font-size: 1rem;
   text-align: center;
   pointer-events: none;
