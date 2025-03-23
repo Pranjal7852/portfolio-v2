@@ -16,7 +16,7 @@
   height: 350px;
   background-color: #8ff0ff32;
   background-blend-mode: luminosity;
-  background-image: url(./assets/images/pranjal_goyal_display_image.jpg);
+  background-image: url(/assets/images/pranjal_goyal_display_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,6 +24,7 @@
   box-shadow: -2px -2px 1px rgba(255, 255, 255, 0.24),
     2px 2px 1px rgba(0, 0, 0, 0.205);
   transition: 1s;
+  margin-top: 5%;
 }
 .photo:hover {
   background-color: #64ffdb00;
@@ -49,15 +50,10 @@
   text-align: left;
   margin: 2vh 0;
   color: var(--light-slate);
-  font-size: var(--fz-l);
+  font-size: var(--fz-p);
   pointer-events: none;
   cursor: none;
   opacity: 0.7;
-}
-.tech {
-  font-size: var(--fz-l);
-}
-.tech-table {
 }
 th {
   color: white;

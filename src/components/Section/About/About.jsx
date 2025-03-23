@@ -38,7 +38,7 @@ const About = () => {
         <h3> &lt;/TechStack&gt;</h3>
         <div className="table-container tab-desktop">
           <div>
-            <table className="text-left text-l font-light">
+            <table className="text-left font-light">
               <tbody>
                 <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
@@ -82,7 +82,7 @@ const About = () => {
             </table>
           </div>{" "}
           <div>
-            <table className="min-w-full text-left text-sm font-light">
+            <table className="min-w-full text-left font-light">
               <tbody>
                 <tr className="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                   <td
