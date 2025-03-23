@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.scss";
 import GradientHeading from "../../compounds/GradientHeading/GradientHeading";
-import { useState, useRef, useEffect } from "react";
 import useIsElementInViewport from "./../../../Hooks/ElementInViewport";
 import { IoLogoJavascript } from "react-icons/io5";
 const About = () => {
@@ -19,39 +18,24 @@ const About = () => {
 
         <div className="red" data-aos="zoom-out">
           <p>
-            I am Pranjal Goyal, currently a final year undergraduate student
-            pursuing Electronics and Communication Engineering at the{" "}
-            <span className="green-word">
-              National Institute of Technology, Hamirpur
-            </span>
-            , India. Originally from New Delhi, I possess a keen interest in
-            exploring new technology and tackling real-world challenges. I
-            specialize in full stack web development using{" "}
-            <span className="green-word">MERN</span> stack.
+
+            I’m Pranjal Goyal, a Full Stack Software Engineer passionate about building <span className="green-word">
+              scalable
+            </span>,<span className="green-word"> high-performing applications</span>. With over a year of hands-on experience, I specialize in TypeScript, React, Node.js, and cloud platforms like AWS and GCP, bringing a deep understanding of modern web technologies and backend systems. My expertise spans across<span className="green-word"> frontend and backend development, cloud deployment, </span>and <span className="green-word">system optimization</span>.
           </p>
           <br></br>
           <p>
-            I have developed a strong foundation in various programming
-            languages, including JavaScript (ES6), TypeScript, HTML, CSS, and
-            Node.Js My expertise extends to an array of web technologies, such
-            as React JS, Redux, Node JS, CLI NPM, Material UI, Next JS, MongoDB,
-            and PostgreSQL.
+            I have built engaging user experiences using React.js, Next.js, Redux, TailwindCSS, and Framer Motion, while ensuring backend robustness with Node.js, Express.js, GraphQL, PostgreSQL, MongoDB, and Prisma ORM. I also have experience deploying and managing scalable applications using Docker, Kubernetes, AWS EC2, S3, Lambda, Firebase, and CI/CD pipelines with GitHub Actions and Azure DevOps. Implementing OpenTelemetry and monitoring tools has been a key part of my workflow to enhance application performance and minimize downtime.
           </p>
           <br></br>
           <p>
-            Currently, I am looking for new roles based on my skill set as a
-            full stack developer with over a year of hands-on experience. I also
-            possess experience with APIs, having worked with event data and
-            images, and have developed an Admin Panel using ExpressJs and
-            MongoDb Atlas.Throughout my career, I have successfully designed and
-            deployed diverse web applications encompassing both front-end and
-            back-end development.
+            Beyond work, I actively contribute to open-source projects, participate in hackathons, and stay up-to-date with the latest advancements in technology. I thrive on solving real-world challenges and enjoy taking ownership of projects from ideation to deployment. I am always looking for opportunities to collaborate, innovate, and build impactful solutions.
           </p>
         </div>
       </div>
 
       <div className=" tech tagline">
-        <h4> &lt;/TechStack&gt;</h4>
+        <h3> &lt;/TechStack&gt;</h3>
         <div className="table-container tab-desktop">
           <div>
             <table className="text-left text-l font-light">
