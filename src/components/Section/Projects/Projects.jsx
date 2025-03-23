@@ -17,6 +17,24 @@ const Projects = () => {
       <div className="gallery">
 
         <ProjectCard
+          alignmentDirection={false}
+          projectImage="/assets/images/ss/nimbus22.png"
+          typeOfProject="Annual Technical Festival NITH"
+          projectTitle="Nimbus 2022"
+          projectDiscription="The Event Communication & Engagement Platform is a web application designed to efficiently manage large-scale email and SMS communication during fest days, ensuring seamless interaction with registered participants. The platform leverages Amazon Simple Email Service (SES) to dispatch over 100,000 emails efficiently and integrates Twilio for real-time SMS notifications.
+
+To enhance user experience, the application utilizes Framer Motion and GSAP for smooth UI animations, creating an engaging interface. Additionally, Three.js is incorporated for 3D model rendering, improving the overall aesthetics and interactivity of the platform."
+          projectTechUsed={[
+            "React.JS",
+            "Three.JS",
+            "Node.JS",
+            "MongoDB",
+          ]}
+          projectDeployedLink="https://nimbus2k22.netlify.app/"
+          projectRepoLink="https://github.com/pixonoids/Nimbus-2k22"
+        />
+
+        <ProjectCard
           alignmentDirection={true}
           projectImage="/assets/images/ss/sourcingXpress.png"
           typeOfProject="Freelance SaaS Project"
