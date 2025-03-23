@@ -28,7 +28,7 @@ const Navbar = () => {
         <ul>
           <NavItem href="#about-p" number="01." title="About" />
           <NavItem href="#expe-p" number="02." title="Experience" />
-          <NavItem href="#work-p" number="03." title="Blog" />
+          <NavItem href="https://blogs.pranjalgoyal.dev" number="03." title="Blog" />
           <NavItem href="#work-p" number="04." title="Work" />
           <NavItem href="#hello-p" number="05." title="Contact" />
 
@@ -36,8 +36,9 @@ const Navbar = () => {
             <button className="btn inline-flex h-12 animate-background-shine items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <a
                 className=""
-                href="/assets/pdfs/PranjalGoyal_ResumeFullStack_Feb2024.pdf"
+                href="/assets/pdfs/PranjalGoyal_ResumeFullStack_March2025.pdf"
                 download="Pranjal CV"
+                target="_blank"
               >
                 Resume
               </a>

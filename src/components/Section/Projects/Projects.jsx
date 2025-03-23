@@ -15,21 +15,23 @@ const Projects = () => {
         animationClass={isInViewport}
       />
       <div className="gallery">
+
         <ProjectCard
           alignmentDirection={true}
-          projectImage="/assets/images/ss/nimbus22.png"
-          typeOfProject="NIT Hamirpur Annual Technical Fest Website"
-          projectTitle="Nimbus Udantya: An Occultic Cyberverse"
-          projectDiscription=" Developed and deployed a full stack web application for the annual technical fest, NIMBUS NITH. Implemented efficient client-side rendering with local storage caching for enhanced performance and user experience. Utilised Framer Motion and GSAP for smooth UI animations and effects, enhancing the app's aesthetics. Created a robust Restful API to manage and store teams' event data on a PostgreSQL server hosted on Digital Ocean."
+          projectImage="/assets/images/ss/sourcingXpress.png"
+          typeOfProject="Freelance SaaS Project"
+          projectTitle="SourcingnXpress"
+          projectDiscription="SourcingXPress enhances the hiring experience by enabling real-time profile tracking with WebSockets and React Query, ensuring job seekers receive instant updates on recruiter actions. It optimizes platform efficiency with a scalable MongoDB and Redis-backed architecture, handling high traffic seamlessly.
+Employers benefit from free job postings and candidate downloads, secured through NextAuth and Firebase-based authentication."
           projectTechUsed={[
-            "React.JS",
-            "REST API",
+            "Next.JS",
+            "Shadcn UI",
             "Node.JS",
             "PostgreSQL",
-            "Redux",
+            "Express.JS",
           ]}
-          projectDeployedLink="https://nimbus2k22.netlify.app/"
-          projectRepoLink="https://github.com/pixonoids/Nimbus-2k22"
+          projectDeployedLink="https://www.sourcingxpress.com/"
+          projectRepoLink="https://www.sourcingxpress.com/"
         />
         <ProjectCard
           alignmentDirection={false}
